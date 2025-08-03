@@ -1,8 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-
-
-export const SignInContainer = styled.div`
+export const SignUpContainer = styled.div`
   width: 100%;
   max-width: 400px;
   margin: 100px auto;
@@ -14,14 +12,20 @@ export const SignInContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
-`
 
+  span{
+    text-align: center;
+    color: #333333;
+  }
+`
 export const Title = styled.h2`
  text-align: center;
  color: #333333;
-`
+ margin-bottom:0px;
 
-export const ButtonContainer = styled.div`
-display:flex;
-justify-content: space-between;
+`
+export const ButtonContainer =styled.div`
+display: flex; 
+justify-content: center;
+
 `
